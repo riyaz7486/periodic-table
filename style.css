@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#00ffdc,#25ff03);
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:aqua;
+    padding-top: 10%;
+    color:black;
+
+}
+#noline{
+    text-decoration: none;
+    color: black;
+}
+td{
+    border: 10px;
+}
+.nometal{
+    border: 0px;
+}
+.nonmetal{
+    background-color: #94D9E9;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.noblegas{
+    background-color: #B092C4;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.alkalimetal{
+    background-color: #F18482;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.alkalineearth{
+    background-color: #EEAF72;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.metalloid{
+    background-color: #9AD7BC;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.helogen{
+    
+    background-color: #7BBFE8;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.basicmetal{
+    background-color: #CCDF79;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;   
+}
+.transitionmetal{
+    background-color: #F8F49A;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;      
+}
+
+.lanthanoid{
+    background-color: #F1A2C4;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+.lanthanoids{
+    background-color: #F1A2C4;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.actinoid{
+    background-color: #D880B3;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+.actinoids{
+    background-color: #D880B3;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hedding{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-align:justify;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#text-about-1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-align:justify;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* below code is for nonmetal.html  */
+body{
+    background-color: #94D9E9;
+}
+#text-about{
+    font-family: 'Vidaloka',serif;
+    color:mediumblue;
+    font-size: 40px;
+    margin-top: 0%;
+}
+.text-about-1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-align:justify;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.caption{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Vidaloka', serif;
+    font-size: 34px;   
+    /* font-weight: bold; */
+    margin: 0;
+    color:black;
+    padding-top: 20px;
+    text-align: center;
+}
+.line {
+    align-items: center;
+    height: 4px;
+    width: 33%;
+    background-color: red;
+    
+}
+
+/* .table-content{
+    border: 3px solid red;
+    margin-bottom: 3px;
+} */
+.row{
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+    height:max-content;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.column{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+.container{
+    box-sizing: border-box;
+    border: 3px solid red;
+    border-radius: 30px;
+    border-collapse: collapse;
+    grid-row:auto;
+    
+}
+.details{
+    font-family: 'Noto Serif Khojki', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Vidaloka', serif;   
+    padding: 20px;
+    text-align: center;
+
+}
+
+.heading1{
+    font-family: 'Vidaloka',serif;
+    color: #000000;
+    font-size: 50px;
+    text-align: center;   
+    margin-bottom: 0%;
+    margin: 0;
+    padding-top: 10%;
+}
